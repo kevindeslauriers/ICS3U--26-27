@@ -52,5 +52,7 @@ public class GameDriver {
 
         // behaviour define what an object can do - the public methods 
 
+        Player player = new Player("STeve", 60);
+
     }
 }
