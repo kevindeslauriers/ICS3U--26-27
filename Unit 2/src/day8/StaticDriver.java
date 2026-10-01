@@ -1,7 +1,7 @@
 package day8;
 
 /**
- * Day 8, Part 3: Class methods (static) versus instance methods.
+ * Day 8, Part 4: Class methods (static) versus instance methods.
  */
 public class StaticDriver {
     public static void main(String[] args) {
@@ -30,5 +30,10 @@ public class StaticDriver {
 
         // ERROR 3: Remove the // from the next line. Hover over the red underline. Then put the // back.
         // double avg4 = GameMath.average(7, 8.5);
+
+        // CHALLENGE: Complete potionsAffordable in GameMath.java first. Then remove the // from the next three lines.
+        // Player kai = new Player("Kai", 100);
+        // Merchant greta = new Merchant("Greta");
+        // System.out.println(GameMath.potionsAffordable(kai.getGold(), greta.getPrice()));   // Expected: 6
     }
 }

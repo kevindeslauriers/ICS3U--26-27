@@ -28,12 +28,13 @@ public class GameMath {
     }
 
     /**
-     * CHALLENGE (Task 8 in MathLab):
-     * Returns a random roll of a die with the given number of sides,
-     * from 1 to sides, both included.
+     * CHALLENGE:
+     * Returns how many whole potions can be bought with the given gold
+     * when each potion costs the given price. Partial potions do not count.
+     * Example: potionsAffordable(100, 15) returns 6.
      * Replace return 0; with the correct expression.
      */
-    public static int rollDie(int sides) {
+    public static int potionsAffordable(int gold, int price) {
         return 0;
     }
 }
