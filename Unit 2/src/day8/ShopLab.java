@@ -12,13 +12,17 @@ public class ShopLab {
         // TASK 1: Create a Merchant named "Greta" using the constructor with ONE parameter.
         //         Store it in a variable named greta.
 
+        Merchant greta = new Merchant("Greta");
+
 
         // TASK 2: Create a Merchant named "Bram" who has 4 potions at 25 gold each.
         //         Store it in a variable named bram.
+        Merchant bram = new Merchant("Bram", 4, 25);
 
 
         // TASK 3: Create a Player named "Ada" who starts with 100 gold.
         //         Store it in a variable named ada.
+        Player ada = new Player("Ada", 100);
 
 
         // TASK 4: Print Greta's stock, then Greta's price, using her accessor methods.
@@ -47,8 +51,8 @@ public class ShopLab {
 
         // TASK 9: Remove the // from the next two lines. Before you run, write your prediction
         //         for what bram.getStock() prints. Then add a line that prints it.
-        // Merchant shop = bram;
-        // shop.restock(10);
+        Merchant shop = bram;
+        shop.restock(10);
 
 
         // TASK 10: Each line below has ONE error. Remove the // from one line at a time,
