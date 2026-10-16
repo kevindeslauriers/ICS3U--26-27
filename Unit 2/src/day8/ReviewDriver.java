@@ -6,25 +6,32 @@ package day8;
  */
 public class ReviewDriver {
     public static void main(String[] args) {
-        Lantern a = new Lantern();
-        Lantern b = new Lantern(40);
-        Lantern c = a;
+        // Lantern a = new Lantern();
+        // Lantern b = new Lantern(40);
+        // Lantern c = a;
 
-        a.light();
-        b.light();
-        c.burn(10);
-        b.burn(5);
+        // a.light();
+        // b.light();
+        // c.burn(10);
+        // b.burn(5);
 
-        System.out.println(a.getFuel());   // Line 1
-        System.out.println(b.getFuel());   // Line 2
-        System.out.println(c.isLit());     // Line 3
+        // System.out.println(a.getFuel());   // Line 1
+        // System.out.println(b.getFuel());   // Line 2
+        // System.out.println(c.isLit());     // Line 3
 
-        c.extinguish();
-        System.out.println(a.isLit());     // Line 4
+        // c.extinguish();
+        // System.out.println(a.isLit());     // Line 4
 
-        int x = 5;
-        int y = x;
-        y = y + 10;
-        System.out.println(x);             // Line 5
+        // int x = 5;
+        // int y = x;
+        // y = y + 10;
+        // System.out.println(x);             // Line 5
+
+        Lantern lamp = new Lantern();
+        Lantern light = null;
+
+        light.light();
+
+        light = lamp;
     }
 }
