@@ -1,0 +1,4 @@
+Cellar
+A damp stone room. A ladder leads up.
+40
+true
