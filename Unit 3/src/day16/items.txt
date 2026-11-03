@@ -1,0 +1,15 @@
+Cellar
+Brass Lantern
+A battered brass lantern with a cracked glass.
+3
+true
+Hallway
+Rusty Key
+A small iron key, orange with rust.
+1
+true
+Chapel
+Stone Altar
+A heavy altar carved with strange symbols.
+500
+false

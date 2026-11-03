@@ -1,0 +1,9 @@
+Cellar
+A damp stone cellar. Water drips from a crack in the ceiling.
+false
+Hallway
+A long hallway lined with faded tapestries.
+false
+Chapel
+A ruined chapel. Moonlight never reaches this far.
+true

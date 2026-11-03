@@ -1,0 +1,12 @@
+Hallway
+Old Hermit
+Leave me be, traveller. Unless you have gold.
+The chapel is east of here. Do not go in without a light.
+I lost a key in this hallway years ago.
+Some say the altar hides a passage down.
+Chapel
+Ghostly Monk
+Who disturbs my rest?
+I have guarded this altar for three hundred years.
+The crypt below holds what you seek.
+Light will not save you down there.

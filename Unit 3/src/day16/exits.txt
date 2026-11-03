@@ -1,0 +1,4 @@
+Cellar north Hallway
+Hallway south Cellar
+Hallway east Chapel
+Chapel west Hallway
